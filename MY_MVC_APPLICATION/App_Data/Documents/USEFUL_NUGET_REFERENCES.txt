@@ -1,0 +1,35 @@
+﻿// Updated on 1394/10/24
+
+// هايی که نصب آنها توصيه می شود NuGet
+
+INSTALL-PACKAGE Microsoft.AspNet.Mvc
+
+INSTALL-PACKAGE Newtonsoft.Json
+INSTALL-PACKAGE Microsoft.AspNet.Web.Optimization
+
+INSTALL-PACKAGE EntityFramework
+INSTALL-PACKAGE SqlServerCompact
+INSTALL-PACKAGE EntityFramework.SqlServerCompact
+
+INSTALL-PACKAGE JQuery
+
+INSTALL-PACKAGE jQuery.Validation.Unobtrusive
+
+INSTALL-PACKAGE Bootstrap
+
+INSTALL-PACKAGE AngularJS
+
+INSTALL-PACKAGE Modernizr
+
+INSTALL-PACKAGE T4MVC
+INSTALL-PACKAGE AutoMapper
+INSTALL-PACKAGE NLog.Config
+
+INSTALL-PACKAGE TinyMCE
+INSTALL-PACKAGE DotNetZip
+INSTALL-PACKAGE CaptchaMvc.Mvc5
+INSTALL-PACKAGE SyntaxHighlighter
+INSTALL-PACKAGE DocumentFormat.OpenXml
+
+Bootstrap (Right To Left)
+https://github.com/morteza/bootstrap-rtl

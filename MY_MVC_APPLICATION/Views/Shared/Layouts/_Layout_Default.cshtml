@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+
+	<title>@ViewBag.Title</title>
+
+	<link href="@(Links.Content.bootstrap_min_css)" rel="stylesheet" />
+	<link href="@(Links.Content.bootstrap_theme_min_css)" rel="stylesheet" />
+	<link href="@(Links.Content.Site_css)" rel="stylesheet" />
+
+	<style>
+		body {
+			margin-top: 20px;
+		}
+	</style>
+
+	<script src="@(Links.Scripts.jquery_3_3_1_min_js)"></script>
+	<script src="@(Links.Scripts.jquery_validate_min_js)"></script>
+	<script src="@(Links.Scripts.jquery_validate_unobtrusive_min_js)"></script>
+	<script src="@(Links.Scripts.bootstrap_min_js)"></script>
+</head>
+<body>
+	<div class="container">
+		@RenderBody()
+	</div>
+</body>
+</html>
